@@ -1,0 +1,1 @@
+@"C:\Program Files (x86)\PDFtk Server\bin\pdftk.exe" %1 cat 1-endright output _pdf_rotate_tmp.pdf && move /Y _pdf_rotate_tmp.pdf %1
